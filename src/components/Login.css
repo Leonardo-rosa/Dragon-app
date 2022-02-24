@@ -1,0 +1,36 @@
+.formLogin{
+  max-width:480px;
+  width: 100%;
+  border:2px solid #8257e5;
+  border-radius:15px;
+  margin:0 auto;
+}
+.formLogin form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.formLogin form div{
+  display:flex;
+  flex-direction:column;
+  
+}
+.formLogin form input{
+  margin:10px auto;
+  border-radius:25px;
+  height: 35px;
+}
+.formLogin button{
+  border:1px solid #8257e5;
+  background-color: #8257e5;
+  border-radius: 25px;
+  width: 160px;
+  height: 35px;
+  text-align: center;
+  color:#fff;
+  font-size:18px;
+  transition:all 0.4s ease-in-out;
+  cursor: pointer;
+  margin:15px auto;
+}

@@ -1,0 +1,68 @@
+.secListDagon{
+  max-width: 640px;
+  width: 100%;
+  margin:0 auto;
+}
+.secListDagon h2{
+  text-align:center;
+  font-size:32px;
+}
+.table-responsive{
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin:0 auto;
+  overflow-x:auto;
+ }
+.btn-create{
+  width: 120px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding:5px;
+  border:1px solid #8257e5;
+  background-color: #8257e5;
+  text-align: center;
+  text-decoration: none;
+  color:#fff;
+  font-size:15px;
+  transition:all 0.4s ease-in-out;
+  cursor: pointer;
+  border-radius:25px;
+}
+.btn-create:hover{
+  opacity: 0.7;
+}
+.secListDagon .table{
+  margin-top:15px;
+  padding:0;
+}
+.secListDagon .table th,.secListDagon .table td{
+  border:2px solid #8257e5;
+  padding:12px;
+  text-align:center;
+}
+.secListDagon .table td a,.secListDagon .table td button{
+  margin:0 3px !important;
+  font-weight:700;
+  color:#f4f4f4;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.secListDagon .table td a:hover,.secListDagon .table td button:hover{
+  text-decoration:underline;
+  opacity: 1;
+}
+.secListDagon .table td button{
+  background:transparent;
+  border: 0;
+  color:red;
+  font-weight:700;
+  cursor:pointer;
+}
+@media(max-width:767px){
+  .container{
+    width: 94%;
+    padding: 0 5px;
+  }
+}

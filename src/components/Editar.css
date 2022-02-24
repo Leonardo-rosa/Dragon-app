@@ -1,0 +1,11 @@
+.cardDragon{
+  max-width:380px;
+  width:100%;
+  padding:12px;
+  border:2px solid #f4f4f4;
+  border-radius:25px;
+  margin:0 auto;
+ }
+ .cardDragon h2{
+   opacity:0.6;
+ }
